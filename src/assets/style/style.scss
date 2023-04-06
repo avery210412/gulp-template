@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap');
+
+$primary: #252c41;
+$secondary: #2bbbd8;
+$text-white: #f4f5f9;
+
+body {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
+}
+
+.header {
+  height: 200px;
+  background-color: $primary;
+  color: $text-white;
+}
+
+.footer {
+  height: 200px;
+  background-color: $primary;
+  color: $text-white;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: $secondary;
+  display: flex;
+  transition: all 0.5s;
+  &:hover {
+    width: 200px;
+    background-color: #17a56f;
+  }
+}
