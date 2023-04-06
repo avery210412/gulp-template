@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto&display=swap");
+body {
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif; }
+
+.header {
+  height: 200px;
+  background-color: #252c41;
+  color: #f4f5f9; }
+
+.footer {
+  height: 200px;
+  background-color: #252c41;
+  color: #f4f5f9; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #2bbbd8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s; }
+  .box:hover {
+    width: 200px;
+    background-color: #17a56f; }
+
+/*# sourceMappingURL=style.css.map */
